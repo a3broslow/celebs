@@ -1,8 +1,29 @@
 Rails.application.routes.draw do
+  resources :celebs
+
+  root "celebs#index"
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   #resources :celebs
 
   #root "celebs#index"
-end
+
 
 
 
